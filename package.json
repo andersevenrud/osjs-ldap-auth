@@ -1,0 +1,31 @@
+{
+  "name": "@osjs/ldap-auth",
+  "version": "1.0.0",
+  "description": "OS.js v3 LDAP authentication provider adapter",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run eslint && npm run jest",
+    "jest": "jest",
+    "eslint": "eslint *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersevenrud/osjs-pam-auth.git"
+  },
+  "keywords": [
+    "osjs"
+  ],
+  "author": "Anders Evenrud <andersevenrud@gmail.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/andersevenrud/osjs-ldap-auth/issues"
+  },
+  "homepage": "https://github.com/andersevenrud/osjs-ldap-auth#readme",
+  "dependencies": {
+    "ldapts": "^1.5.0",
+    "lodash.merge": "^4.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
